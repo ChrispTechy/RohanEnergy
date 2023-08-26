@@ -1880,10 +1880,10 @@ img{
 .banner-section .swiper-slide h2{
 	position: relative;
 	display: block;
-	font-size: 100px;
+	font-size: 90px;
 	line-height: 1em;
 	color: #ffffff;
-	font-weight: 700;
+	font-weight: 500;
 	margin-bottom: 20px;
 	opacity: 0;
 	transform: scaleY(0);
