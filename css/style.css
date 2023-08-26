@@ -1920,7 +1920,7 @@ img {
 	display: block;
 	font-size: 90px;
 	line-height: 1em;
-	color: #ffffff;
+	color: #ffbc00;
 	font-weight: 500;
 	margin-bottom: 20px;
 	opacity: 0;
@@ -2882,7 +2882,7 @@ img {
 
 .about-us .image-column .image img {
 	display: inline-block;
-	width: auto;
+	width: auto	;
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.80);
 }
 
