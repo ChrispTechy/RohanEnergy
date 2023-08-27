@@ -1811,7 +1811,7 @@ img {
 
 .overlay{
 	color: #f7f4f4;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 .banner-section {
 	position: relative;
@@ -1841,7 +1841,7 @@ img {
 
 .banner-section .swiper-slide .content .inner {
 	position: relative;
-	max-width: 600px;
+	max-width: 100%;
 	text-align: center;
 	margin: 0 auto;
 }
@@ -1855,7 +1855,7 @@ img {
 	transform: scaleX(0);
 	transform-origin: left;
 	text-transform: uppercase;
-	border: 10px solid #ffbc00;
+	/* border: 10px solid #ffbc00; */
 	border-right: 0;
 	content: "";
 	-webkit-transition: all 300ms linear;
@@ -1889,7 +1889,7 @@ img {
 	transform: scaleX(0);
 	transform-origin: right;
 	text-transform: uppercase;
-	border: 10px solid #ffbc00;
+	/* border: 10px solid #ffbc00; */
 	border-left: 0;
 	z-index: -1;
 	content: "";
@@ -1917,9 +1917,10 @@ img {
 
 .banner-section .swiper-slide h2 {
 	position: relative;
+	width: 100%;
 	display: block;
-	font-size: 90px;
-	line-height: 1em;
+	font-size: 85px;
+	line-height: 1.5em;
 	color: #ffbc00;
 	font-weight: 500;
 	margin-bottom: 20px;
@@ -9815,7 +9816,7 @@ img {
 .rlogo {
 	display: inline-block;
 	max-width: 100%;
-	height: 50px;
+	height: 100px;
 	width: 100px;
 
 }
