@@ -2019,7 +2019,7 @@ img {
 }
 
 .banner-section .swiper-slide .text-1{
-	width: 50%;
+	width: 80%;
 }
 .banner-section .swiper-slide-active .text {
 	opacity: 1;
@@ -2773,6 +2773,7 @@ img {
 
 ***/
 
+
 .about-us {
 	position: relative;
 	padding: 120px 0 70px;
@@ -2790,6 +2791,10 @@ img {
 .about-us .content-column .inner-column {
 	padding-right: 70px;
 }
+
+/* .inner-column .about-img{
+	
+} */
 
 .about-us .about-years {
 	position: relative;
