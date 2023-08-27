@@ -3487,10 +3487,12 @@ img {
 .feature-block-two .inner-box .icon {
 	position: absolute;
 	left: 30px;
-	top: 30px;
-	font-size: 64px;
+	/* top: 50px; */
+	font-size: 48px;
 	line-height: 1em;
 	color: #ffbc00;
+	padding-top: 20px;
+	
 }
 
 .feature-block-two h4 {
@@ -3500,7 +3502,9 @@ img {
 	line-height: 1em;
 	color: #ffffff;
 	font-weight: 500;
-	margin-bottom: 15px;
+	padding-top: 30px;
+
+	
 }
 
 .feature-block-two .text {
