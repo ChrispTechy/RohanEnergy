@@ -116,6 +116,7 @@ a {
 	text-decoration: none;
 	cursor: pointer;
 	color: #ffbc00;
+
 }
 
 a:hover,
@@ -156,7 +157,25 @@ p,
 	font-weight: 400;
 	color: #999999;
 	margin: 0;
+	/* width: 80%; */
 }
+.tagline{
+	margin-top: 3rem;
+	font-weight: 900;
+	color: #fff;
+	font-style: italic;
+	font-size: 24px;
+	margin-bottom: 40px;
+	
+}
+/* .text1{
+	font-size: 16px;
+		line-height: 26px;
+		font-weight: 400;
+		color: #999999;
+		margin: 0;
+		width: 80%;
+} */
 
 ::-webkit-input-placeholder {
 	color: inherit;
@@ -1811,7 +1830,7 @@ img {
 
 .overlay{
 	color: #f7f4f4;
-	opacity: 0.5;
+	opacity: 0.2;
 }
 .banner-section {
 	position: relative;
