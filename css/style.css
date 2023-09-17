@@ -159,15 +159,17 @@ p,
 	margin: 0;
 	/* width: 80%; */
 }
-.tagline{
+
+.tagline {
 	margin-top: 3rem;
 	font-weight: 900;
 	color: #fff;
 	font-style: italic;
 	font-size: 24px;
 	margin-bottom: 40px;
-	
+
 }
+
 /* .text1{
 	font-size: 16px;
 		line-height: 26px;
@@ -573,7 +575,7 @@ img {
 	display: inline-block;
 	max-width: 100%;
 	height: auto;
-	
+
 }
 
 .tabs-box {
@@ -650,21 +652,21 @@ img {
 	position: fixed;
 	background-color: #222222;
 	box-shadow: 0 0 30px rgba(0, 0, 0, .50);
-	
+
 }
 
 .main-header .main-box {
 	position: relative;
 	padding: 10px 50px;
 	/* padding: 20px; */
-	
+
 }
 
 .main-header .logo-box {
 	position: relative;
 	float: left;
 	padding: 5px 0;
-	
+
 }
 
 .main-header .outer-box {
@@ -1833,10 +1835,11 @@ img {
 
 ***/
 
-.overlay{
+.overlay {
 	color: #f7f4f4;
 	opacity: 0.2;
 }
+
 .banner-section {
 	position: relative;
 }
@@ -2018,9 +2021,10 @@ img {
 	transition: all 500ms ease;
 }
 
-.banner-section .swiper-slide .text-1{
+.banner-section .swiper-slide .text-1 {
 	width: 80%;
 }
+
 .banner-section .swiper-slide-active .text {
 	opacity: 1;
 	transform: scaleY(1);
@@ -2761,7 +2765,8 @@ img {
 	bottom: 40px;
 	z-index: 99;
 }
-.footer-icons{
+
+.footer-icons {
 	margin-top: 30px;
 }
 
@@ -2831,7 +2836,8 @@ img {
 	position: relative;
 	margin-bottom: 20px;
 }
-.our-value h2{
+
+.our-value h2 {
 	color: #fff;
 	font-weight: 500;
 	font-size: 24px;
@@ -2926,7 +2932,7 @@ img {
 
 .about-us .image-column .image img {
 	display: inline-block;
-	width: auto	;
+	width: auto;
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.80);
 }
 
@@ -3500,7 +3506,7 @@ img {
 	line-height: 1em;
 	color: #ffbc00;
 	padding-top: 20px;
-	
+
 }
 
 .feature-block-two h4 {
@@ -3512,7 +3518,7 @@ img {
 	font-weight: 500;
 	padding-top: 30px;
 
-	
+
 }
 
 .feature-block-two .text {
@@ -3773,7 +3779,9 @@ img {
 .service-block-two .lower-content {
 	position: relative;
 	padding: 30px 30px;
-	height: 470px;
+	height: 700px;
+	/* height: auto; */
+
 }
 
 .service-block-two h3 {
@@ -3807,6 +3815,7 @@ img {
 	color: #888888;
 	font-weight: 400;
 	margin-bottom: 25px;
+	overflow: auto;
 }
 
 .service-block-two .read-more {
@@ -6677,7 +6686,7 @@ img {
 	height: 80px;
 	margin-bottom: 25px;
 	align-self: center;
-	
+
 }
 
 .main-footer .about-widget .text {
@@ -9887,51 +9896,51 @@ img {
 */
 @media (min-width: 1281px) {
 	/* CSS */
-  }
-  
-  /* 
+}
+
+/* 
 	##Device = Laptops, Desktops  ##Screen = B/w 1025px to 1280px
   */
-  @media (min-width: 1025px) and (max-width: 1280px) {
-	
+@media (min-width: 1025px) and (max-width: 1280px) {
+
 	/* CSS */
-	
-  }
-  
-  /* 
+
+}
+
+/* 
 	##Device = Tablets, Ipads (portrait)  ##Screen = B/w 768px to 1024px
   */
-  @media (min-width: 768px) and (max-width: 1024px) {
-	
+@media (min-width: 768px) and (max-width: 1024px) {
+
 	/* CSS */
-	
-  }
-  
-  /* 
+
+}
+
+/* 
 	##Device = Tablets, Ipads (landscape)  ##Screen = B/w 768px to 1024px
   */
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-	
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
 	/* CSS */
-	
-  }
-  
-  /* 
+
+}
+
+/* 
 	##Device = Low Resolution Tablets, Mobiles (Landscape)
    ##Screen = B/w 481px to 767px
   */
-  @media (min-width: 481px) and (max-width: 767px) {
-	
+@media (min-width: 481px) and (max-width: 767px) {
+
 	/* CSS */
-	
-  }
-  
-  /* 
+
+}
+
+/* 
 	##Device = Most of the Smartphones Mobiles (Portrait)
 	##Screen = B/w 320px to 479px
   */
-  @media (min-width: 320px) and (max-width: 480px) {
-	
+@media (min-width: 320px) and (max-width: 480px) {
+
 	/* CSS */
-	
-  }
+
+}
