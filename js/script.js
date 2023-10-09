@@ -742,20 +742,19 @@
 
 
 
-const parentContainer = document.querySelector(".readMore-container");
+const parentContainers = document.querySelectorAll(".service-card");
 
-parentContainer.addEventListener("click", (event) => {
-  const current = event.target;
+parentContainers.forEach((parentContainer) => {
+  const readMoreBtn = parentContainer.querySelector(".readMoreBtn");
+  const readMoreText = parentContainer.querySelector(".read-more-text");
 
-  const isReadMoreBtn = current.className.includes("readMoreBtn");
+  readMoreBtn.addEventListener("click", () => {
+    readMoreText.classList.toggle("read-more-text--show");
 
-  if (!isReadMoreBtn) return;
-
-  const currentText = event.target.parentNode.querySelector(".read-more-text");
-
-  currentText.classList.toggle("read-more-text--show");
-
-		current.textContent = current.textContent.includes("Read More")
-		? "Read Less..."
-		: "Read More...";
+    readMoreBtn.textContent = readMoreText.classList.contains(
+      "read-more-text--show"
+    )
+      ? "Read Less..."
+      : "Read More...";
+  });
 });
