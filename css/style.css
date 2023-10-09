@@ -3784,17 +3784,18 @@ img {
 
 }
 
-.readMoreBtn{
-	color:#009fe9;
+.readMoreBtn {
+	color: #009fe9;
 	cursor: pointer;
-	
+
 }
 
-.read-more-text{
+.read-more-text {
 	display: none;
 }
-.read-more-text--show{
-	display:inline;
+
+.read-more-text--show {
+	display: inline;
 }
 
 .readMore-container {
@@ -3871,7 +3872,7 @@ img {
 	-ms-transition: all 300ms ease;
 	-o-transition: all 300ms ease;
 	transition: all 300ms ease;
-
+	width: 180px;
 	/* padding-top: 5rem; */
 }
 
