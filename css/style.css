@@ -3779,8 +3779,8 @@ img {
 .service-block-two .lower-content {
 	position: relative;
 	padding: 30px 30px;
-	height: 700px;
-	/* height: auto; */
+	/* height: 500px; */
+	height: auto;
 
 }
 
